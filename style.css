@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  background-color: #eef;
+  padding: 20px;
+}
+
+#map {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  gap: 5px;
+}
+
+.province {
+  background: #ccc;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#provinceInfo {
+  margin-top: 20px;
+  background: white;
+  padding: 15px;
+  border: 1px solid #000;
+}
+
